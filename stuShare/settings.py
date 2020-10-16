@@ -125,3 +125,5 @@ STATIC_URL = '/static/'
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 LOGIN_REDIRECT_URL = 'share-home' #takes users to homepage upon signing in
+
+LOGIN_URL = 'login' #redirects to login page if they try to access page like profile
