@@ -9,6 +9,7 @@ verify_ssl = true
 sqlparse = "*"
 django = "*"
 django-crispy-forms = "*"
+pillow = "*"
 
 [requires]
 python_version = "3.8"
