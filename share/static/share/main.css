@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap');
+/* font-family: 'Sansita Swashed', cursive; */
+
 body {
     background: #fafafa;
     color: #333333;
@@ -13,7 +18,16 @@ body {
   }
   
   .bg-steel {
-    background-color: #5f788a;
+    background-color: #517e86;
+  }
+
+  .nav-name {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 25px;
+  }
+
+  .nav-text {
+    font-family: 'Open Sans', sans-serif;
   }
   
   .site-header .navbar-nav .nav-link {
@@ -38,6 +52,8 @@ body {
   
   .article-title {
     color: #444444;
+    font-family: 'Open Sans', sans-serif;
+    
   }
   
   a.article-title:hover {
@@ -47,6 +63,8 @@ body {
   
   .article-content {
     white-space: pre-line;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
   }
   
   .article-img {

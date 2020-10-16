@@ -1,6 +1,10 @@
 {% extends "share/base.html" %}
 {% block content %}
+{% if user.is_authenticated %}
  <h1 class="mb-3">Your Feed</h1>
+ {% else %}
+ <h1></h1>
+ {% endif %}
   {% for post in posts %}
   <article class="media content-section">
     <img class="rounded-circle article-img" src="{{ post.author.profile.image.url }}">
