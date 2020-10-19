@@ -123,3 +123,16 @@ body {
   .mr-2 {
     color: #428bca;
   }
+
+  .comments {
+    width: 100%;
+  }
+
+  .comment-title{
+    margin-top: 20px;
+  }
+
+  .comment-body {
+    margin-bottom: 40px;
+    font-size: 20px;
+  }
