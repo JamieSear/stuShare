@@ -2,11 +2,14 @@
 /* font-family: 'Open Sans', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap');
 /* font-family: 'Sansita Swashed', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
 
 body {
     background: #fafafa;
     color: #333333;
     margin-top: 5rem;
+    font-family: 'Montserrat', sans-serif;
   }
   
   h1, h2, h3, h4, h5, h6 {
@@ -41,6 +44,11 @@ body {
   .site-header .navbar-nav .nav-link.active {
     font-weight: 500;
   }
+
+  .title-text {
+    padding-top: 20px;
+    margin-bottom: 20px;
+  }
   
   .content-section {
     background: #ffffff;
@@ -59,6 +67,17 @@ body {
   a.article-title:hover {
     color: #428bca;
     text-decoration: none;
+  }
+
+  .link-text {
+    color: #428bca;
+  }
+  .link-text:hover {
+    color: #428bca;
+  }
+
+  .text-marg {
+    margin-bottom: 60px;
   }
   
   .article-content {
@@ -99,4 +118,8 @@ body {
   
   .account-heading {
     font-size: 2.5rem;
+  }
+
+  .mr-2 {
+    color: #428bca;
   }

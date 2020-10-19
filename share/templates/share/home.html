@@ -1,7 +1,10 @@
 {% extends "share/base.html" %}
 {% block content %}
 {% if user.is_authenticated %}
- <h1 class="mb-3">Your Feed</h1>
+ <h1 class="title-text">Your Feed</h1>
+ <h4 class="mb-3">Here you can search for posts related to your course, or you can <a class="link-text" href="{% url 'post-create' %}">Create a Post Yourself</a></h4>
+ <h4 class="text-marg">To find out more about stuSpace, visit our <a class="link-text" href="{% url 'share-about' %}">About Section</a></h4>
+
  {% else %}
  <h1></h1>
  {% endif %}
