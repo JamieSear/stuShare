@@ -15,3 +15,13 @@ class Post(models.Model):
 
     def get_absolute_url(self): #find url to any post 
         return reverse('post-detail', kwargs={'pk': self.pk}) #reverse redirects to detail view of new post
+
+class Comment(models.Model):
+    post = models.ForeignKey(Post, related_name="comments", on_delete=models.CASCADE)
+    name = models.CharField(max_length=255)
+    body = models.TextField()
+    date_added = models.DateTimeField(auto_now_add=True)
+    author = models.ForeignKey(User, on_delete=models.CASCADE, default=1)
+
+    def __str__(self):
+        return '%s - %s' % (self.post.title, self.name)

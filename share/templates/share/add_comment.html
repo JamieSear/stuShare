@@ -1,0 +1,22 @@
+{% extends "share/base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+
+{% if user.is_authenticated %}
+    <h1 class="title-text">Comment on Post</h1>
+        <div class="content-section">
+            <form method="POST">
+                {% csrf_token %}
+                <fieldset class="form-group">
+                    <legend class="border-bottom mb-4">Create a Comment</legend>
+                    {{ form|crispy }}
+                </fieldset>
+                <div class="form-group">
+                    <button class="btn btn-outline-info" type="submit">Comment</button>
+                </div>
+            </form>
+        </div>
+    {% else %}
+        <h1 class="title-text">To comment on a post, you need to <a href="{% url 'login' %}">Login</a></h1>
+{% endif %}
+{% endblock content %}
