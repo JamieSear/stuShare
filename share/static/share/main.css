@@ -166,3 +166,18 @@ body {
   .btn-info {
     background-color: #428bca;
   }
+
+  /* About page */
+  .about-p{
+    font-size: 20px;
+  }
+
+  /* Footer */
+  .footer-edit{
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 20px;
+    background-color: #517e86;
+    padding: 3px;
+  }
