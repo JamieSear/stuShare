@@ -136,3 +136,33 @@ body {
     margin-bottom: 40px;
     font-size: 20px;
   }
+
+  .btn-logout {
+    background-color: #df424244;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+  }
+
+
+  /* Pagination buttons */
+  .btn-outline-info {
+    border-color: #428bca;
+    color: #428bca;
+  }
+
+  .btn-outline-info:hover{
+    background-color: #428bca;
+    color: #ffffff;
+  }
+
+  .btn-info {
+    background-color: #428bca;
+  }
+
+  .btn-info {
+    background-color: #428bca;
+  }
