@@ -1,7 +1,7 @@
 # stuShare
 
 ## Visit Site:
-[@stuShare.com](jamiesear.pythonanywhere.com)
+[@stuShare.com](http://jamiesear.pythonanywhere.com/)
 
 ## About stuShare:
 - stuShare offers a place for University students to share interesting resources that they have found whilst completing their course. This can provide people from different universities to gain a different view on a subject/topic
